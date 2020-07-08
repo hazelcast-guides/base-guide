@@ -5,7 +5,11 @@ You can clone this repository, work on it and create your guide, and then push t
 ////
 
 :github-address: [github-repo-address-of-your-guide]
+
 :templates-url: https://raw.githubusercontent.com/hazelcast-guides/adoc-templates/master
+
+// Use this relative url if you are going to publish the guide on the guides site.
+// :templates-url: templates:ROOT:page$/
 
 = Title
 
