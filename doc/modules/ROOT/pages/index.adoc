@@ -40,3 +40,7 @@ Write the steps in your guide here by making each step a different section
 == See Also
 
 // Add some links to resources, such as other related guides.
+// Use relative links used on the home page (see https://raw.githubusercontent.com/hazelcast-guides/guides-site/master/home/modules/ROOT/pages/index.adoc)
+
+- xref:hazelcast-embedded-springboot:ROOT:index.adoc[Hazelcast in SpringBoot]
+- xref:hazelcast-quarkus:ROOT:index.adoc[Hazelcast Client for Quarkus] 
