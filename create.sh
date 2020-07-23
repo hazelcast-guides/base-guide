@@ -1,2 +1,2 @@
-asciidoctor -a allow-uri-read *.adoc;
-asciidoctor-pdf -a allow-uri-read *.adoc;
+asciidoctor -D . -a allow-uri-read doc/modules/ROOT/pages/*.adoc;
+asciidoctor-pdf -D . -a allow-uri-read doc/modules/ROOT/pages/*.adoc;
