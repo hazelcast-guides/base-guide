@@ -79,4 +79,4 @@ This script automatically copies the local URL to your clipboard.
 
 You can browse the site for your tutorial, or you can append the name of your tutorial's filename to the end of the URL. For example: http://localhost:3000/tutorials/<your tutorial>.
 
-NOTE: Search does not work locally.
+NOTE: Search does not work locally. The search bar displays results only for tutorials that are already published on docs.hazelcast.com.
