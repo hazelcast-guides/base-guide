@@ -11,11 +11,11 @@ Make sure to rename this file to the name of your repository and add the filenam
 :page-lang: java // Define the language filters for this tutorial. Leave blank or add one or more of: java, go, python, cplus, node, csharp.
 :page-enterprise: // Define whether this tutorial requires an Enterprise license (true or blank)
 :page-est-time: // Define the estimated number of time required to complete the tutorial in minutes. For example, 10 mins
-:description: // Summarize what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags.
+:description: // Summarize what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags. Start the sentence with an action verb such as 'Deploy' or 'Connect'.
 
 {description}
 
-// Optional: Does the reader need some context to better understand the use case? For example a quick introduction to the use case and how Hazelcast fits into it. Delete this section if you don't need it.
+// Give some context about the use case for this tutorial. What will the reader learn?
 == Context
 
 // Optional: What does the reader need before starting this tutorial? Think about tools or knowledge. Delete this section if your readers can dive straight into the lesson without requiring any prerequisite knowledge.
