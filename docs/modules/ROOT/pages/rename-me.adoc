@@ -11,7 +11,7 @@ Make sure to rename this file to the name of your repository and add the filenam
 :page-lang: java // Define the language filters for this tutorial. Leave blank or add one or more of: java, go, python, cplus, node, csharp.
 :page-enterprise: // Define whether this tutorial requires an Enterprise license (true or blank)
 :page-est-time: // Define the estimated number of time required to complete the tutorial in minutes. For example, 10 mins
-:description: // Summarise what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags.
+:description: // Summarize what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags.
 
 {description}
 
