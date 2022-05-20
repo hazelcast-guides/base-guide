@@ -4,14 +4,14 @@ Make sure to rename this file to the name of your repository and add the filenam
 
 // Describe the title of your article by replacing 'Tutorial template' with the page name you want to publish.
 = Tutorial template
-// Add required variables (delete the // comments and add in the values)
+// Add required variables
 :page-layout: tutorial
-:page-product: // Define the product filter for this tutorial. Leave blank or add one of the following: platform, imdg, cloud, mc
-:page-categories: // Define the categories for this tutorial. Check the current categories and choose an existing one, making sure to use title case. If you need to create a new category, message the docs team or create an issue. You can leave this blank or add one or more comma-separated categories in title case. 
-:page-lang: java // Define the language filters for this tutorial. Leave blank or add one or more of: java, go, python, cplus, node, csharp.
-:page-enterprise: // Define whether this tutorial requires an Enterprise license (true or blank)
-:page-est-time: // Define the estimated number of time required to complete the tutorial in minutes. For example, 10 mins
-:description: // Summarize what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags. Start the sentence with an action verb such as 'Deploy' or 'Connect'.
+:page-product: // Required: Define the product filter for this tutorial. Add one of the following: platform, imdg, cloud, operator
+:page-categories: // Optional: Define the categories for this tutorial. Check the current categories and choose an existing one, making sure to use title case. If you need to create a new category, message the docs team or create an issue. You can leave this blank or add one or more comma-separated categories in title case. 
+:page-lang: java // Optional: Define what Hazelcast client languages are supported by this tutorial. Leave blank or add one or more of: java, go, python, cplus, node, csharp.
+:page-enterprise: // Required: Define whether this tutorial requires an Enterprise license (true or blank)
+:page-est-time: // Required: Define the estimated number of time required to complete the tutorial in minutes. For example, 10 mins
+:description: // Required: Summarize what this tutorial is about in a sentence or two. What you put here is reused as the tutorial's first paragraph and included in HTML description tags. Start the sentence with an action verb such as 'Deploy' or 'Connect'.
 
 {description}
 
