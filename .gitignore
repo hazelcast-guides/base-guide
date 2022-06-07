@@ -10,3 +10,6 @@ target/
 *.ipr
 *.iws
 *.txt
+node_modules/
+local-docs/
+package-lock.json
