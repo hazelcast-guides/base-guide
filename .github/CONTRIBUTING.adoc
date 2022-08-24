@@ -43,19 +43,7 @@ After the pull request is merged, your tutorial will be available on the documen
 
 To preview your content in a local version of the tutorials subsite, do the following:
 
-. Append your tutorial repository to the `content.sources` field in the `antora-playbook-local.yml` file at the root of this repository.
-+
-For example:
-+
-```yaml
-content:
-  sources:
-    - url: https://github.com/hazelcast-guides/<your-repo>
-    branches: <your branch name>
-    start_path: docs
-```
-
-. Install the required dependencies by running `npm i` at the root of this repository.
+. Install the required dependencies by running `npm i` at the root of your repository.
 
 . Build the site.
 +
