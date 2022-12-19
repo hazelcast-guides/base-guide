@@ -23,6 +23,23 @@ TIP: Use a brief name for the new repository as it will be the endpoint of the t
 
 . Add the filename to the template in the README.
 
+. Open the `antora-playbook-local.yml` file.  Verify that the "branches" entry under "url: ." in the "content/sources" list matches the branch you are
+working on.  Most likely either "main" or "master".
++
+```yaml
+content:
+  sources: 
+  - url: https://github.com/hazelcast/hazelcast-docs
+    branches: main
+    start_paths: [tutorials, home]
+  - url: https://github.com/hazelcast-guides/adoc-templates.git
+    branches: antora-doc
+  - url: .
+    branches: main  ### double check this
+    start_paths: docs
+```
+TIP:  If your site fails to generate, check this setting.
+
 . Write your tutorial by following the instructions in the file.
 
 . Submit a pull request against the `develop` branch of the link:https://github.com/hazelcast/hazelcast-docs[`hazelcast-docs` repository] to append your tutorial repository to the `content.sources` field in the `antora-playbook.yml` and `antora-playbook-local.yml` files.
