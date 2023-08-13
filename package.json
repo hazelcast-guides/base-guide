@@ -8,7 +8,8 @@
     "build-local": "antora --to-dir local-docs --fetch --generator @antora/site-generator-default antora-playbook-local.yml",
     "check-links-local": "antora --generator @antora/xref-validator antora-playbook-local.yml",
     "serve": "serve local-docs",
-    "expose": "ngrok http 5000"
+    "expose": "ngrok http 5000",
+    "start": "npm run build-local && npm run serve"
   },
   "devDependencies": {
     "@antora/cli": "^3.0.0",
